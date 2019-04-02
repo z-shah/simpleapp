@@ -1,1 +1,11 @@
 language: node_js
+node_js:
+ - "node"
+services:
+  - docker
+before_install:
+   docker build -t nodeapp .
+   docker run -d -p 127.0.0.1:80:8080 nodeapp
+   npm install -g newman
+script:
+  - npm test

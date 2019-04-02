@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:3000/healthcheck",
+			"name": "http://localhost/healthcheck",
 			"event": [
 				{
 					"listen": "test",
@@ -35,12 +35,12 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:3000/healthcheck",
+					"raw": "http://localhost/healthcheck",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3000",
+					"port": "80",
 					"path": [
 						"healthcheck"
 					],
