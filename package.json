@@ -4,7 +4,7 @@
   "description": "Simple API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "newman run test/simpleapp.postman_collection.json",
     "last-commit": "$(npm bin)/git-last -f build.json",
     "start": "node app.js"
   },
