@@ -6,17 +6,14 @@ const port = 3000;
 
 let jsonData = require('./build.json');
 
-var lastcommitsha = jsonData.id; 
-var version = jsonData.version;
-
 app.set('json spaces', 2)
 app.get('/appInfo', function(req, res) {
 
     var data = ({
         myapplication: {
-            version: jsonData.id,
-            description: "This is a sample app",
-            lastcommitsha: jsonData.version,
+            version: jsonData.version,
+            description: "pre-interview technical test",
+            lastcommitsha: jsonData.id,
         }
         
       });
