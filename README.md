@@ -19,7 +19,7 @@ docker run -d -p 127.0.0.1:80:8080 my-web-app
 Uses [newman](https://learning.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman/) to run postman collections.
 
 
-## Install newman globally (t which allows you to run it from anywhere.)
+## Install newman globally (allows you to run it from anywhere.)
 
 ```
 npm install -g newman
