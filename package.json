@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/zsanaa/simpleapp#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "git-last": "^1.2.10",
     "last-commit": "^0.4.1"
   },
