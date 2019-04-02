@@ -1,0 +1,26 @@
+{
+  "name": "simpleapp",
+  "version": "0.1.0",
+  "description": "Simple API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "last-commit": "$(npm bin)/git-last -f build.json",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsanaa/simpleapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsanaa/simpleapp/issues"
+  },
+  "homepage": "https://github.com/zsanaa/simpleapp#readme",
+  "dependencies": {
+    "git-last": "^1.2.10",
+    "last-commit": "^0.4.1"
+  },
+  "devDependencies": {}
+}
